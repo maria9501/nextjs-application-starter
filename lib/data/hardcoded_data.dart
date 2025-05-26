@@ -1,0 +1,83 @@
+import '../models/service.dart';
+
+final List<Service> popularServices = [
+  Service(
+    id: 1,
+    title: "House Cleaning",
+    description: "Professional house cleaning services for your home. Our experienced cleaners provide thorough and reliable cleaning solutions.",
+    avgPrice: "\$110 – \$140",
+    imageUrl: "https://images.pexels.com/photos/4107112/pexels-photo-4107112.jpeg",
+    icon: "🏠",
+  ),
+  Service(
+    id: 2,
+    title: "Handyman",
+    description: "Expert handyman services for repairs, installations, and maintenance. Available for both small fixes and larger projects.",
+    avgPrice: "\$80 – \$100",
+    imageUrl: "https://images.pexels.com/photos/1249611/pexels-photo-1249611.jpeg",
+    icon: "🔧",
+  ),
+  Service(
+    id: 3,
+    title: "Electrical and Wiring",
+    description: "Licensed electricians for all your electrical needs. From repairs to new installations, we ensure safe and reliable service.",
+    avgPrice: "\$120 – \$180",
+    imageUrl: "https://images.pexels.com/photos/8005397/pexels-photo-8005397.jpeg",
+    icon: "⚡",
+  ),
+  Service(
+    id: 4,
+    title: "Interior Painting",
+    description: "Transform your space with professional interior painting services. Quality workmanship and attention to detail guaranteed.",
+    avgPrice: "\$600 – \$850",
+    imageUrl: "https://images.pexels.com/photos/4352247/pexels-photo-4352247.jpeg",
+    icon: "🎨",
+  ),
+  Service(
+    id: 5,
+    title: "Junk Removal",
+    description: "Efficient junk removal services for homes and businesses. We handle all types of waste and ensure proper disposal.",
+    avgPrice: "\$170 – \$230",
+    imageUrl: "https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg",
+    icon: "🗑️",
+  ),
+  Service(
+    id: 6,
+    title: "Local Moving",
+    description: "Professional local moving services. We handle packing, transportation, and unpacking with care and efficiency.",
+    avgPrice: "\$80 – \$100",
+    imageUrl: "https://images.pexels.com/photos/4246120/pexels-photo-4246120.jpeg",
+    icon: "📦",
+  ),
+  Service(
+    id: 7,
+    title: "Appliance Repair",
+    description: "Expert appliance repair services for all major brands. Fast, reliable repairs for your home appliances.",
+    avgPrice: "\$70 – \$130",
+    imageUrl: "https://images.pexels.com/photos/4108807/pexels-photo-4108807.jpeg",
+    icon: "🔧",
+  ),
+  Service(
+    id: 8,
+    title: "Floor Installation",
+    description: "Professional floor installation services. We work with all types of flooring materials to enhance your space.",
+    avgPrice: "\$600 – \$1000",
+    imageUrl: "https://images.pexels.com/photos/5570224/pexels-photo-5570224.jpeg",
+    icon: "🏗️",
+  ),
+];
+
+final List<String> categories = [
+  "Home Maintenance",
+  "Home Remodeling",
+  "Cleaning Services",
+  "Moving Services",
+  "Electrical Work",
+  "Plumbing",
+  "Landscaping",
+  "Interior Design",
+  "Pest Control",
+  "Painting",
+  "Flooring",
+  "Roofing",
+];
